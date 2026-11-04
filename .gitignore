@@ -1,0 +1,21 @@
+# Entregables pesados (se suben a Canvas, no a GitHub)
+*.zip
+*.mp4
+
+# Jupyter / Colab
+.ipynb_checkpoints/
+
+# Spark (carpetas que crea al ejecutarse localmente)
+spark-warehouse/
+metastore_db/
+derby.log
+
+# Python / entornos
+__pycache__/
+.venv/
+venv/
+
+# Sistema operativo y editor
+.DS_Store
+Thumbs.db
+.vscode/
